@@ -98,10 +98,12 @@ publishing:
         title: Dendron
         description: Personal Knowledge Space
     github:
+        cname: modernreforms.org
         enableEditLink: true
         editLinkText: Edit this page on GitHub
-        editBranch: main
+        editBranch: master
         editViewMode: tree
+        editRepository: https://github.com/meese-enterprises/modernreforms.org
     enableSiteLastModified: true
     enableFrontmatterTags: true
     enableHashesForFMTags: false
