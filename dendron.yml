@@ -84,6 +84,8 @@ preview:
     automaticallyShowPreview: false
 publishing:
     siteUrl: https://modernreforms.org
+    # TODO: Get a better logo for our brand
+    # logoPath: notes/assets/logo.png
     enableFMTitle: true
     enableNoteTitleForLink: true
     enableMermaid: true
@@ -95,8 +97,17 @@ publishing:
     writeStubs: false
     siteRootDir: docs
     seo:
-        title: Dendron
-        description: Personal Knowledge Space
+        title: Modern Reforms
+        description: >-
+            Our world is at a tipping point in history on a
+            level that has never before been possible. Come
+            join us in our journey to compile Modern Reforms
+            for the Modern World.
+        author: Aaron Meese, Meese Enterprises
+        twitter: ModernReforms
+        image:
+            url: https://modernreforms.org/assets/logo.png
+            alt: Modern Reforms Logo
     github:
         cname: modernreforms.org
         enableEditLink: true
