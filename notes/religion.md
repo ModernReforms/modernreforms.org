@@ -1,8 +1,9 @@
 ---
 id: g5mhvtpevmf8jb6g8sk2g9c
 title: Religion
-desc: 'Religion is a system of common beliefs that unite some individuals and pit others against each other.'
-updated: 1655593307557
+desc: >-
+  Religion is a system of common beliefs that unite some individuals and pit others against each other.
+updated: 1655663484627
 created: 1602388800000
 ---
 

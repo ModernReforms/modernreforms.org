@@ -2,6 +2,7 @@ version: 5
 dev:
     enablePreviewV2: true
     enableSelfContainedVaults: true
+useTitleForLink: true
 commands:
     lookup:
         note:
@@ -84,25 +85,25 @@ preview:
     automaticallyShowPreview: false
 publishing:
     siteUrl: https://modernreforms.org
-    # TODO: Get a better logo for our brand
-    # logoPath: notes/assets/logo.png
-    enableFMTitle: true
-    enableNoteTitleForLink: true
-    enableMermaid: true
-    enablePrettyRefs: true
-    enableKatex: true
-    copyAssets: true
     siteHierarchies:
-        - root
-    writeStubs: false
+        - about
+        - economics
+        - education
+        - finances
+        - government
+        - justice
+        - politics
+        - religion
+        - social-media
+        - war
+        - work
     siteRootDir: docs
     seo:
         title: Modern Reforms
         description: >-
-            Our world is at a tipping point in history on a
-            level that has never before been possible. Come
-            join us in our journey to compile Modern Reforms
-            for the Modern World.
+            Our world is at a tipping point in history on a level that has never
+            before been possible. Come join us in our journey to compile Modern
+            Reforms for the Modern World.
         author: Aaron Meese, Meese Enterprises
         twitter: ModernReforms
         image:
@@ -115,9 +116,16 @@ publishing:
         editBranch: master
         editViewMode: tree
         editRepository: https://github.com/meese-enterprises/modernreforms.org
+    copyAssets: true
     enableSiteLastModified: true
     enableFrontmatterTags: true
     enableHashesForFMTags: false
     enableRandomlyColoredTags: true
     enableTaskNotes: true
     enablePrettyLinks: true
+    enableFMTitle: true
+    enableNoteTitleForLink: true
+    enableMermaid: true
+    enablePrettyRefs: true
+    enableKatex: true
+    writeStubs: false

@@ -1,8 +1,8 @@
 ---
 id: xoed3gln7e54djggyzr759v
-title: Education Reform
-desc: 'Necessary changes for the global education system to remain effective 📚'
-updated: 1655657262982
+title: Education
+desc: 'Necessary changes for the global education system to remain effective'
+updated: 1655663962904
 created: 1638384830874
 ---
 
