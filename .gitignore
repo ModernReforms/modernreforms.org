@@ -4,3 +4,4 @@ package-lock.json
 /.dendron*
 *.cache.json
 .backup
+.vscode/
