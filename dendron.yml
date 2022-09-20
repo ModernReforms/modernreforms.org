@@ -2,7 +2,6 @@ version: 5
 dev:
     enablePreviewV2: true
     enableSelfContainedVaults: true
-useTitleForLink: true
 commands:
     lookup:
         note:
@@ -13,14 +12,14 @@ commands:
             bubbleUpCreateNew: true
             fuzzThreshold: 0.2
     randomNote: {}
-    insertNote:
-        initialValue: templates
     insertNoteLink:
         aliasMode: none
         enableMultiSelect: false
     insertNoteIndex:
         enableMarker: false
-    copyNoteLink: {}
+    copyNoteLink:
+        aliasMode: title
+    templateHierarchy: template
 workspace:
     vaults:
         -
@@ -61,8 +60,8 @@ workspace:
         createTaskSelectionType: selection2link
     graph:
         zoomSpeed: 1
+        createStub: false
     enableAutoCreateOnDefinition: false
-    enableHandlebarTemplates: false
     enableXVaultWikiLink: false
     enableRemoteVaultInit: true
     enableUserTags: true
@@ -73,7 +72,6 @@ workspace:
     maxPreviewsCached: 10
     maxNoteLength: 204800
     enableFullHierarchyNoteTitle: false
-    templateHierarchy: template
 preview:
     enableFMTitle: true
     enableNoteTitleForLink: true
