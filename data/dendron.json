@@ -1,0 +1,154 @@
+{
+  "version": 5,
+  "dev": {
+    "enablePreviewV2": true,
+    "enableSelfContainedVaults": true
+  },
+  "commands": {
+    "lookup": {
+      "note": {
+        "selectionMode": "extract",
+        "confirmVaultOnCreate": true,
+        "vaultSelectionModeOnCreate": "smart",
+        "leaveTrace": false,
+        "bubbleUpCreateNew": true,
+        "fuzzThreshold": 0.2
+      }
+    },
+    "randomNote": {},
+    "insertNoteLink": {
+      "aliasMode": "none",
+      "enableMultiSelect": false
+    },
+    "insertNoteIndex": {
+      "enableMarker": false
+    },
+    "copyNoteLink": {
+      "aliasMode": "title"
+    },
+    "templateHierarchy": "template"
+  },
+  "workspace": {
+    "vaults": [
+      {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "modernreforms.org"
+      }
+    ],
+    "journal": {
+      "dailyDomain": "daily",
+      "name": "journal",
+      "dateFormat": "y.MM.dd",
+      "addBehavior": "childOfDomain"
+    },
+    "scratch": {
+      "name": "scratch",
+      "dateFormat": "y.MM.dd.HHmmss",
+      "addBehavior": "asOwnDomain"
+    },
+    "task": {
+      "name": "task",
+      "dateFormat": "y.MM.dd",
+      "addBehavior": "asOwnDomain",
+      "statusSymbols": {
+        "": " ",
+        "wip": "w",
+        "done": "x",
+        "assigned": "a",
+        "moved": "m",
+        "blocked": "b",
+        "delegated": "l",
+        "dropped": "d",
+        "pending": "y"
+      },
+      "taskCompleteStatus": [
+        "done",
+        "x"
+      ],
+      "prioritySymbols": {
+        "H": "high",
+        "M": "medium",
+        "L": "low"
+      },
+      "todoIntegration": false,
+      "createTaskSelectionType": "selection2link"
+    },
+    "graph": {
+      "zoomSpeed": 1,
+      "createStub": false
+    },
+    "enableAutoCreateOnDefinition": false,
+    "enableXVaultWikiLink": false,
+    "enableRemoteVaultInit": true,
+    "enableUserTags": true,
+    "enableHashTags": true,
+    "workspaceVaultSyncMode": "noCommit",
+    "enableAutoFoldFrontmatter": false,
+    "enableEditorDecorations": true,
+    "maxPreviewsCached": 10,
+    "maxNoteLength": 204800,
+    "enableFullHierarchyNoteTitle": false
+  },
+  "preview": {
+    "enableFMTitle": true,
+    "enableNoteTitleForLink": true,
+    "enableFrontmatterTags": true,
+    "enableHashesForFMTags": false,
+    "enableMermaid": true,
+    "enablePrettyRefs": true,
+    "enableKatex": true,
+    "automaticallyShowPreview": false
+  },
+  "publishing": {
+    "enableFMTitle": true,
+    "enableNoteTitleForLink": true,
+    "enablePrettyRefs": true,
+    "enableKatex": true,
+    "copyAssets": true,
+    "siteHierarchies": [
+      "about",
+      "economics",
+      "education",
+      "finances",
+      "government",
+      "justice",
+      "politics",
+      "religion",
+      "social-media",
+      "war",
+      "work"
+    ],
+    "writeStubs": false,
+    "siteRootDir": "docs",
+    "seo": {
+      "title": "Modern Reforms",
+      "description": "Our world is at a tipping point in history on a level that has never before been possible. Come join us in our journey to compile Modern Reforms for the Modern World.",
+      "author": "Aaron Meese, Meese Enterprises",
+      "twitter": "ModernReforms",
+      "image": {
+        "url": "https://modernreforms.org/assets/logo.png",
+        "alt": "Modern Reforms Logo"
+      }
+    },
+    "github": {
+      "cname": "modernreforms.org",
+      "enableEditLink": true,
+      "editLinkText": "Edit this page on GitHub",
+      "editBranch": "master",
+      "editViewMode": "tree",
+      "editRepository": "https://github.com/meese-enterprises/modernreforms.org"
+    },
+    "enableSiteLastModified": true,
+    "enableFrontmatterTags": true,
+    "enableHashesForFMTags": false,
+    "enableRandomlyColoredTags": true,
+    "enableTaskNotes": true,
+    "enablePrettyLinks": true,
+    "searchMode": "lookup",
+    "siteUrl": "https://modernreforms.org",
+    "enableMermaid": true,
+    "siteFaviconPath": "favicon.ico",
+    "siteIndex": "about"
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "roots": [
+    {
+      "key": "nh36z59hwz1hh7v05wijpxj",
+      "title": "Modern Reforms 🌱",
+      "icon": null,
+      "hasTitleNumberOutlined": false,
+      "vaultName": "modernreforms.org",
+      "children": []
+    },
+    {
+      "key": "xoed3gln7e54djggyzr759v",
+      "title": "Education",
+      "icon": null,
+      "hasTitleNumberOutlined": false,
+      "vaultName": "modernreforms.org",
+      "children": [
+        {
+          "key": "y9q4yr0kq4hff6a8tpwjvzw",
+          "title": "One Size Fits All",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "modernreforms.org",
+          "children": []
+        },
+        {
+          "key": "rc0eqgys9ifo8ob48ldqgg0",
+          "title": "Role of the Parent",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "modernreforms.org",
+          "children": []
+        },
+        {
+          "key": "iwvahc9iour1vgayzk4nd4z",
+          "title": "Self Discovery",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "modernreforms.org",
+          "children": []
+        },
+        {
+          "key": "yacctqc4757bqrfm9gjghwq",
+          "title": "Teachers",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "modernreforms.org",
+          "children": []
+        }
+      ]
+    },
+    {
+      "key": "wdsxo9tppef9xsavzybx7f6",
+      "title": "Finances",
+      "icon": null,
+      "hasTitleNumberOutlined": false,
+      "vaultName": "modernreforms.org",
+      "children": [
+        {
+          "key": "kfdp8nomdx5xkvi036ahle6",
+          "title": "Banking",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "modernreforms.org",
+          "children": []
+        }
+      ]
+    },
+    {
+      "key": "wxirpny213yq9we1s0qcz1m",
+      "title": "Government",
+      "icon": null,
+      "hasTitleNumberOutlined": false,
+      "vaultName": "modernreforms.org",
+      "children": []
+    },
+    {
+      "key": "ec9i1nrd9jssn35xrvyawl9",
+      "title": "Justice",
+      "icon": null,
+      "hasTitleNumberOutlined": false,
+      "vaultName": "modernreforms.org",
+      "children": [
+        {
+          "key": "2gi52p3fwbn5c01h3niwprt",
+          "title": "Prison",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "modernreforms.org",
+          "children": []
+        }
+      ]
+    },
+    {
+      "key": "g5mhvtpevmf8jb6g8sk2g9c",
+      "title": "Religion",
+      "icon": null,
+      "hasTitleNumberOutlined": false,
+      "vaultName": "modernreforms.org",
+      "children": []
+    },
+    {
+      "key": "p22lqrn0m5gpnsvpwke7ezz",
+      "title": "Social Media",
+      "icon": null,
+      "hasTitleNumberOutlined": false,
+      "vaultName": "modernreforms.org",
+      "children": []
+    },
+    {
+      "key": "hcrtc5yo22x5xdqce4hstwy",
+      "title": "War",
+      "icon": null,
+      "hasTitleNumberOutlined": false,
+      "vaultName": "modernreforms.org",
+      "children": []
+    },
+    {
+      "key": "kah7mvv2wuidm5738l48z41",
+      "title": "Work",
+      "icon": null,
+      "hasTitleNumberOutlined": false,
+      "vaultName": "modernreforms.org",
+      "children": [
+        {
+          "key": "tzhogqxxod2euv2js3rqjrb",
+          "title": "Hiring",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "modernreforms.org",
+          "children": []
+        }
+      ]
+    }
+  ],
+  "child2parent": {
+    "nh36z59hwz1hh7v05wijpxj": null,
+    "xoed3gln7e54djggyzr759v": null,
+    "y9q4yr0kq4hff6a8tpwjvzw": "xoed3gln7e54djggyzr759v",
+    "rc0eqgys9ifo8ob48ldqgg0": "xoed3gln7e54djggyzr759v",
+    "iwvahc9iour1vgayzk4nd4z": "xoed3gln7e54djggyzr759v",
+    "yacctqc4757bqrfm9gjghwq": "xoed3gln7e54djggyzr759v",
+    "wdsxo9tppef9xsavzybx7f6": null,
+    "kfdp8nomdx5xkvi036ahle6": "wdsxo9tppef9xsavzybx7f6",
+    "wxirpny213yq9we1s0qcz1m": null,
+    "ec9i1nrd9jssn35xrvyawl9": null,
+    "2gi52p3fwbn5c01h3niwprt": "ec9i1nrd9jssn35xrvyawl9",
+    "g5mhvtpevmf8jb6g8sk2g9c": null,
+    "p22lqrn0m5gpnsvpwke7ezz": null,
+    "hcrtc5yo22x5xdqce4hstwy": null,
+    "kah7mvv2wuidm5738l48z41": null,
+    "tzhogqxxod2euv2js3rqjrb": "kah7mvv2wuidm5738l48z41"
+  },
+  "notesLabelById": {
+    "nh36z59hwz1hh7v05wijpxj": "Modern Reforms 🌱",
+    "xoed3gln7e54djggyzr759v": "Education",
+    "y9q4yr0kq4hff6a8tpwjvzw": "One Size Fits All",
+    "rc0eqgys9ifo8ob48ldqgg0": "Role of the Parent",
+    "iwvahc9iour1vgayzk4nd4z": "Self Discovery",
+    "yacctqc4757bqrfm9gjghwq": "Teachers",
+    "wdsxo9tppef9xsavzybx7f6": "Finances",
+    "kfdp8nomdx5xkvi036ahle6": "Banking",
+    "wxirpny213yq9we1s0qcz1m": "Government",
+    "ec9i1nrd9jssn35xrvyawl9": "Justice",
+    "2gi52p3fwbn5c01h3niwprt": "Prison",
+    "g5mhvtpevmf8jb6g8sk2g9c": "Religion",
+    "p22lqrn0m5gpnsvpwke7ezz": "Social Media",
+    "hcrtc5yo22x5xdqce4hstwy": "War",
+    "kah7mvv2wuidm5738l48z41": "Work",
+    "tzhogqxxod2euv2js3rqjrb": "Hiring"
+  }
+}
